@@ -1,0 +1,19 @@
+name: Update website
+on: push
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: pip3 install -r template/requirements.txt
+      - name: Generate index.html
+        run: template/generate.py
+      - name: Push the changes
+        run: |
+          if [[ `git status --porcelain` ]]; then
+            git config --global user.name 'Website generator'
+            git config --global user.email 'noreply@natribu.org'
+            git commit -am "Update website"
+            git push
+          fi
