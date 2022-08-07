@@ -1,4 +1,4 @@
-# SpadesXMaps
+# Maps
 
 This repository is intended to hold public maps for SpadesX as a way to provide a starting point to whomever wants to launch a server.
 
