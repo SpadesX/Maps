@@ -20,9 +20,9 @@ with open('template/map.html.mustache', 'r') as mapTemplate:
 			print('Found a map:', map)
 
 			mapDict = dict()
-			path = f'maps/{category}/{map}/{map}.'
+			path = f'maps/{category}/{map}'
 			j = None
-			with open(path + 'json') as f:
+			with open(f'{path}/{map}.json') as f:
 				j = json.load(f)
 
 			mapDict['name'] = map
@@ -31,7 +31,7 @@ with open('template/map.html.mustache', 'r') as mapTemplate:
 			mapDict['path'] = path
 			mapDict['tags'] = [{'tag': tag} for tag in j['tags']]
 
-			with open(path + 'html', 'w') as f:
+			with open(f'{path}/index.html', 'w') as f:
 				f.write(chevron.render(mapTemplate, mapDict))
 
 			categoryDict['maps'].append(mapDict)
