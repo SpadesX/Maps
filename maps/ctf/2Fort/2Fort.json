@@ -1,0 +1,24 @@
+{
+	"team1_start": [
+		226,
+		217
+	],
+	"team1_end": [
+		217,
+		285
+	],
+	"team2_start": [
+		284,
+		290
+	],
+	"team2_end": [
+		292,
+		228
+	],
+	"author": "100best",
+	"tags": [
+		"ctf",
+		"2Fort"
+	],
+	"description": "VXL remake of 2Fort by 100best."
+}
