@@ -1,0 +1,29 @@
+{
+	"team1_start": [
+		224,
+		1
+	],
+	"team1_end": [
+		288,
+		20
+	],
+	"team2_start": [
+		224,
+		511
+	],
+	"team2_end": [
+		288,
+		491
+	],
+	"fog_color": [
+		128,
+		232,
+		255
+	],
+	"author": "Lancilloty",
+	"tags": [
+		"ctf",
+		"hallway"
+	],
+	"description": "Triangle Hell by Lancilloty, inspired by Hallway 2.0."
+}
