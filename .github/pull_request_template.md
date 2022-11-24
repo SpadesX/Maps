@@ -6,3 +6,4 @@ Adds [MAP NAME] to the repository.
 - [] Does the author allow the map to be licensed under GPL-3?
 
 Proof of the above?
+
