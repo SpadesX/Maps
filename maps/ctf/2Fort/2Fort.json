@@ -1,0 +1,33 @@
+{
+	"team1_start": [
+		226,
+		217,
+		46
+	],
+	"team1_end": [
+		217,
+		285,
+		46
+	],
+	"team2_start": [
+		284,
+		290,
+		46
+	],
+	"team2_end": [
+		292,
+		228,
+		46
+	],
+	"fog_color": [
+		128,
+		232,
+		255
+	],
+	"author": "100best",
+	"tags": [
+		"ctf",
+		"2Fort"
+	],
+	"description": "VXL remake of 2Fort by 100best."
+}
